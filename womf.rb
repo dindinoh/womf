@@ -17,7 +17,7 @@ helpers do
   end
 end
 
-# connect to dreamhost
+# connect to S3
 def connect
     AWS::S3::Base.establish_connection!(
                                         :server            => Myhost,
